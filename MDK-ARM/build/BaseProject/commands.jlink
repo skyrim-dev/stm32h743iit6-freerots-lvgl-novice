@@ -1,6 +1,0 @@
-r
-halt
-loadfile "f:\27559\Projects\STM32_Projects\STM32H7xx\STM32H743IIT6_V\LCD\RGBLCD\MDK-ARM\build\BaseProject\BaseProject.hex"
-r
-go
-exit
