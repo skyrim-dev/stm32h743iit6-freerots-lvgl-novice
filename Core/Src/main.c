@@ -127,7 +127,7 @@ int main(void)
   while (1)
   {
 
-    // ltdc_lcd_loop_color();
+    ltdc_lcd_loop_color();
 
     /* USER CODE END WHILE */
 
