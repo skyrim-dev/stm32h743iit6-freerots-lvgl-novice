@@ -2,6 +2,7 @@
 #define __BSP_LTDC_H
 
 #include "stm32h7xx_hal.h"
+#include <stdbool.h>
 
 #define LTDC_ADDR	0xC0000000
 
@@ -49,7 +50,7 @@
 #endif
 
 
-
+bool ltdc_lcd_init(void);
 
 void ltdc_lcd_Fill(uint16_t* fb, uint16_t color, uint32_t length);
 void ltdc_lcd_loop_color(void);
