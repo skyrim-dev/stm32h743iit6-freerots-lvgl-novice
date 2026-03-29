@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32H743xx,ARM_MATH_MATRIX,ARM_MATH_LOOPUNROLL,ARM_MATH_CM7,DATA_IN_ExtSDRAM,USE_PWR_LDO_SUPPLY</Define>
               <Undefine></Undefine>
-              <IncludePath>..\Core\Inc;../Drivers/STM32H7xx_HAL_Driver/Inc;../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32H7xx/Include;../Drivers/CMSIS/Include;..\Drivers\Device\Inc;..\Drivers\SYSTEM\Inc;..\Middlewares\DSP\1.17.0\Include;..\Middlewares\DSP\1.17.0\Include\dsp;..\Middlewares\DSP\1.17.0\PrivateInclude;..\Middlewares\FreeRTOS\Include;..\Middlewares\FreeRTOS\portable\GCC\ARM_CM7\r0p1;..\BSP\Inc;..\BSP\Drivers\Inc</IncludePath>
+              <IncludePath>..\Core\Inc;../Drivers/STM32H7xx_HAL_Driver/Inc;../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32H7xx/Include;../Drivers/CMSIS/Include;..\Drivers\Device\Inc;..\Drivers\SYSTEM\Inc;..\Middlewares\DSP\1.17.0\Include;..\Middlewares\DSP\1.17.0\Include\dsp;..\Middlewares\DSP\1.17.0\PrivateInclude;..\Middlewares\FreeRTOS\Include;..\Middlewares\FreeRTOS\portable\GCC\ARM_CM7\r0p1;..\BSP\Inc;..\BSP\Drivers\Inc;..\APP\Inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -382,7 +382,7 @@
       </TargetOption>
       <Groups>
         <Group>
-          <GroupName>Application/MDK-ARM</GroupName>
+          <GroupName>Startup</GroupName>
           <Files>
             <File>
               <FileName>startup_stm32h743xx.s</FileName>
@@ -392,7 +392,7 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>Application/User/Core</GroupName>
+          <GroupName>User/Core</GroupName>
           <Files>
             <File>
               <FileName>main.c</FileName>
@@ -429,15 +429,10 @@
               <FileType>1</FileType>
               <FilePath>..\Core\Src\stm32h7xx_hal_msp.c</FilePath>
             </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>Drivers/CMSIS</GroupName>
-          <Files>
             <File>
               <FileName>system_stm32h7xx.c</FileName>
               <FileType>1</FileType>
-              <FilePath>../Core/Src/system_stm32h7xx.c</FilePath>
+              <FilePath>..\Core\Src\system_stm32h7xx.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1317,7 +1312,7 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>BSP</GroupName>
+          <GroupName>BSP/Core</GroupName>
           <Files>
             <File>
               <FileName>bsp_fmc_sdram_init.c</FileName>
@@ -1352,7 +1347,14 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>APP</GroupName>
+          <GroupName>APP/Core</GroupName>
+          <Files>
+            <File>
+              <FileName>os_task.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\APP\Src\os_task.c</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>Tests</GroupName>
