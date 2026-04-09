@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32H743xx,ARM_MATH_MATRIX,ARM_MATH_LOOPUNROLL,ARM_MATH_CM7,DATA_IN_ExtSDRAM,USE_PWR_LDO_SUPPLY</Define>
               <Undefine></Undefine>
-              <IncludePath>..\Core\Inc;../Drivers/STM32H7xx_HAL_Driver/Inc;../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32H7xx/Include;../Drivers/CMSIS/Include;..\Drivers\Device\Inc;..\Drivers\SYSTEM\Inc;..\Middlewares\DSP\1.17.0\Include;..\Middlewares\DSP\1.17.0\Include\dsp;..\Middlewares\DSP\1.17.0\PrivateInclude;..\Middlewares\FreeRTOS\Include;..\Middlewares\FreeRTOS\portable\GCC\ARM_CM7\r0p1;..\BSP\Inc;..\BSP\Drivers\Inc</IncludePath>
+              <IncludePath>..\Core\Inc;../Drivers/STM32H7xx_HAL_Driver/Inc;../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32H7xx/Include;../Drivers/CMSIS/Include;..\Drivers\SYSTEM\Inc;..\Middlewares\DSP\1.17.0\Include;..\Middlewares\DSP\1.17.0\Include\dsp;..\Middlewares\DSP\1.17.0\PrivateInclude;..\Middlewares\FreeRTOS\Include;..\Middlewares\FreeRTOS\portable\GCC\ARM_CM7\r0p1;..\BSP\Inc;..\BSP\Drivers\Inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
