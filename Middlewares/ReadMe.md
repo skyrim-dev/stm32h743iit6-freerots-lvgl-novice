@@ -1,4 +1,0 @@
-**[中间件层](https://zhida.zhihu.com/search?content_id=258738610&content_type=Article&match_order=1&q=中间件层&zhida_source=entity) (Middleware Layer)**
-
-- **职责**：提供一些通用的、与具体业务关联不大但又必不可少的软件服务。比如：[实时操作系统](https://zhida.zhihu.com/search?content_id=258738610&content_type=Article&match_order=1&q=实时操作系统&zhida_source=entity) (RTOS)，[文件系统](https://zhida.zhihu.com/search?content_id=258738610&content_type=Article&match_order=1&q=文件系统&zhida_source=entity) (FileSystem)，通信协议栈 (TCP/IP, Modbus, CANopen)，[图形库](https://zhida.zhihu.com/search?content_id=258738610&content_type=Article&match_order=1&q=图形库&zhida_source=entity) (GUI)，[算法库](https://zhida.zhihu.com/search?content_id=258738610&content_type=Article&match_order=1&q=算法库&zhida_source=entity) (PID控制器, 滤波算法) 等。
-- **特点**：通常是可复用的软件组件，不直接依赖硬件（或者其硬件依赖已被下层封装）。它们为应用层提供更高级的服务支撑。

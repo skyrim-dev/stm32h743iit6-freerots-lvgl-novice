@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32H743xx,ARM_MATH_MATRIX,ARM_MATH_LOOPUNROLL,ARM_MATH_CM7,DATA_IN_ExtSDRAM,USE_PWR_LDO_SUPPLY</Define>
               <Undefine></Undefine>
-              <IncludePath>..\Core\Inc;../Drivers/STM32H7xx_HAL_Driver/Inc;../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32H7xx/Include;../Drivers/CMSIS/Include;..\Drivers\SYSTEM\Inc;..\Middlewares\DSP\1.17.0\Include;..\Middlewares\DSP\1.17.0\Include\dsp;..\Middlewares\DSP\1.17.0\PrivateInclude;..\Middlewares\FreeRTOS\Include;..\Middlewares\FreeRTOS\portable\GCC\ARM_CM7\r0p1;..\BSP\Inc;..\BSP\Drivers\Inc</IncludePath>
+              <IncludePath>..\Core\Inc;../Drivers/STM32H7xx_HAL_Driver/Inc;../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32H7xx/Include;../Drivers/CMSIS/Include;..\Drivers\CMSIS\DSP\1.17.0\Include;..\Drivers\CMSIS\DSP\1.17.0\Include\dsp;..\Drivers\CMSIS\DSP\1.17.0\PrivateInclude;..\Drivers\CMSIS\FreeRTOS\Include;..\Drivers\CMSIS\FreeRTOS\portable\GCC\ARM_CM7\r0p1;..\Drivers\SYSTEM\Inc;..\BSP\Inc;..\BSP\Drivers\Inc;..\APP\Inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -1112,207 +1112,207 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>Middlewares/DSP</GroupName>
+          <GroupName>Drivers/CMSIS/DSP</GroupName>
           <Files>
             <File>
               <FileName>BasicMathFunctions.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\DSP\1.17.0\Source\BasicMathFunctions\BasicMathFunctions.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\DSP\1.17.0\Source\BasicMathFunctions\BasicMathFunctions.c</FilePath>
             </File>
             <File>
               <FileName>BasicMathFunctionsF16.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\DSP\1.17.0\Source\BasicMathFunctions\BasicMathFunctionsF16.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\DSP\1.17.0\Source\BasicMathFunctions\BasicMathFunctionsF16.c</FilePath>
             </File>
             <File>
               <FileName>BayesFunctions.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\DSP\1.17.0\Source\BayesFunctions\BayesFunctions.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\DSP\1.17.0\Source\BayesFunctions\BayesFunctions.c</FilePath>
             </File>
             <File>
               <FileName>BayesFunctionsF16.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\DSP\1.17.0\Source\BayesFunctions\BayesFunctionsF16.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\DSP\1.17.0\Source\BayesFunctions\BayesFunctionsF16.c</FilePath>
             </File>
             <File>
               <FileName>CommonTables.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\DSP\1.17.0\Source\CommonTables\CommonTables.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\DSP\1.17.0\Source\CommonTables\CommonTables.c</FilePath>
             </File>
             <File>
               <FileName>CommonTablesF16.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\DSP\1.17.0\Source\CommonTables\CommonTablesF16.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\DSP\1.17.0\Source\CommonTables\CommonTablesF16.c</FilePath>
             </File>
             <File>
               <FileName>ComplexMathFunctions.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\DSP\1.17.0\Source\ComplexMathFunctions\ComplexMathFunctions.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\DSP\1.17.0\Source\ComplexMathFunctions\ComplexMathFunctions.c</FilePath>
             </File>
             <File>
               <FileName>ComplexMathFunctionsF16.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\DSP\1.17.0\Source\ComplexMathFunctions\ComplexMathFunctionsF16.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\DSP\1.17.0\Source\ComplexMathFunctions\ComplexMathFunctionsF16.c</FilePath>
             </File>
             <File>
               <FileName>ControllerFunctions.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\DSP\1.17.0\Source\ControllerFunctions\ControllerFunctions.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\DSP\1.17.0\Source\ControllerFunctions\ControllerFunctions.c</FilePath>
             </File>
             <File>
               <FileName>DistanceFunctions.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\DSP\1.17.0\Source\DistanceFunctions\DistanceFunctions.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\DSP\1.17.0\Source\DistanceFunctions\DistanceFunctions.c</FilePath>
             </File>
             <File>
               <FileName>DistanceFunctionsF16.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\DSP\1.17.0\Source\DistanceFunctions\DistanceFunctionsF16.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\DSP\1.17.0\Source\DistanceFunctions\DistanceFunctionsF16.c</FilePath>
             </File>
             <File>
               <FileName>FastMathFunctions.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\DSP\1.17.0\Source\FastMathFunctions\FastMathFunctions.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\DSP\1.17.0\Source\FastMathFunctions\FastMathFunctions.c</FilePath>
             </File>
             <File>
               <FileName>FastMathFunctionsF16.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\DSP\1.17.0\Source\FastMathFunctions\FastMathFunctionsF16.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\DSP\1.17.0\Source\FastMathFunctions\FastMathFunctionsF16.c</FilePath>
             </File>
             <File>
               <FileName>FilteringFunctions.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\DSP\1.17.0\Source\FilteringFunctions\FilteringFunctions.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\DSP\1.17.0\Source\FilteringFunctions\FilteringFunctions.c</FilePath>
             </File>
             <File>
               <FileName>FilteringFunctionsF16.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\DSP\1.17.0\Source\FilteringFunctions\FilteringFunctionsF16.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\DSP\1.17.0\Source\FilteringFunctions\FilteringFunctionsF16.c</FilePath>
             </File>
             <File>
               <FileName>InterpolationFunctions.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\DSP\1.17.0\Source\InterpolationFunctions\InterpolationFunctions.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\DSP\1.17.0\Source\InterpolationFunctions\InterpolationFunctions.c</FilePath>
             </File>
             <File>
               <FileName>InterpolationFunctionsF16.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\DSP\1.17.0\Source\InterpolationFunctions\InterpolationFunctionsF16.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\DSP\1.17.0\Source\InterpolationFunctions\InterpolationFunctionsF16.c</FilePath>
             </File>
             <File>
               <FileName>MatrixFunctions.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\DSP\1.17.0\Source\MatrixFunctions\MatrixFunctions.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\DSP\1.17.0\Source\MatrixFunctions\MatrixFunctions.c</FilePath>
             </File>
             <File>
               <FileName>MatrixFunctionsF16.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\DSP\1.17.0\Source\MatrixFunctions\MatrixFunctionsF16.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\DSP\1.17.0\Source\MatrixFunctions\MatrixFunctionsF16.c</FilePath>
             </File>
             <File>
               <FileName>QuaternionMathFunctions.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\DSP\1.17.0\Source\QuaternionMathFunctions\QuaternionMathFunctions.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\DSP\1.17.0\Source\QuaternionMathFunctions\QuaternionMathFunctions.c</FilePath>
             </File>
             <File>
               <FileName>StatisticsFunctions.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\DSP\1.17.0\Source\StatisticsFunctions\StatisticsFunctions.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\DSP\1.17.0\Source\StatisticsFunctions\StatisticsFunctions.c</FilePath>
             </File>
             <File>
               <FileName>StatisticsFunctionsF16.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\DSP\1.17.0\Source\StatisticsFunctions\StatisticsFunctionsF16.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\DSP\1.17.0\Source\StatisticsFunctions\StatisticsFunctionsF16.c</FilePath>
             </File>
             <File>
               <FileName>SupportFunctions.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\DSP\1.17.0\Source\SupportFunctions\SupportFunctions.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\DSP\1.17.0\Source\SupportFunctions\SupportFunctions.c</FilePath>
             </File>
             <File>
               <FileName>SupportFunctionsF16.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\DSP\1.17.0\Source\SupportFunctions\SupportFunctionsF16.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\DSP\1.17.0\Source\SupportFunctions\SupportFunctionsF16.c</FilePath>
             </File>
             <File>
               <FileName>SVMFunctions.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\DSP\1.17.0\Source\SVMFunctions\SVMFunctions.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\DSP\1.17.0\Source\SVMFunctions\SVMFunctions.c</FilePath>
             </File>
             <File>
               <FileName>SVMFunctionsF16.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\DSP\1.17.0\Source\SVMFunctions\SVMFunctionsF16.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\DSP\1.17.0\Source\SVMFunctions\SVMFunctionsF16.c</FilePath>
             </File>
             <File>
               <FileName>TransformFunctions.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\DSP\1.17.0\Source\TransformFunctions\TransformFunctions.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\DSP\1.17.0\Source\TransformFunctions\TransformFunctions.c</FilePath>
             </File>
             <File>
               <FileName>TransformFunctionsF16.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\DSP\1.17.0\Source\TransformFunctions\TransformFunctionsF16.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\DSP\1.17.0\Source\TransformFunctions\TransformFunctionsF16.c</FilePath>
             </File>
             <File>
               <FileName>WindowFunctions.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\DSP\1.17.0\Source\WindowFunctions\WindowFunctions.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\DSP\1.17.0\Source\WindowFunctions\WindowFunctions.c</FilePath>
             </File>
           </Files>
         </Group>
         <Group>
-          <GroupName>Middlewares/FreeRTOS/src</GroupName>
+          <GroupName>Drivers/CMSIS/FreeRTOS/src</GroupName>
           <Files>
             <File>
               <FileName>croutine.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\FreeRTOS\Source\croutine.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\FreeRTOS\Source\croutine.c</FilePath>
             </File>
             <File>
               <FileName>event_groups.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\FreeRTOS\Source\event_groups.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\FreeRTOS\Source\event_groups.c</FilePath>
             </File>
             <File>
               <FileName>list.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\FreeRTOS\Source\list.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\FreeRTOS\Source\list.c</FilePath>
             </File>
             <File>
               <FileName>queue.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\FreeRTOS\Source\queue.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\FreeRTOS\Source\queue.c</FilePath>
             </File>
             <File>
               <FileName>stream_buffer.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\FreeRTOS\Source\stream_buffer.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\FreeRTOS\Source\stream_buffer.c</FilePath>
             </File>
             <File>
               <FileName>tasks.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\FreeRTOS\Source\tasks.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\FreeRTOS\Source\tasks.c</FilePath>
             </File>
             <File>
               <FileName>timers.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\FreeRTOS\Source\timers.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\FreeRTOS\Source\timers.c</FilePath>
             </File>
           </Files>
         </Group>
         <Group>
-          <GroupName>Middlewares/FreeRTOS/port</GroupName>
+          <GroupName>Drivers/CMSIS/FreeRTOS/port</GroupName>
           <Files>
             <File>
               <FileName>port.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\FreeRTOS\portable\GCC\ARM_CM7\r0p1\port.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\FreeRTOS\portable\GCC\ARM_CM7\r0p1\port.c</FilePath>
             </File>
             <File>
               <FileName>heap_4.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Middlewares\FreeRTOS\portable\MemMang\heap_4.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\FreeRTOS\portable\MemMang\heap_4.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1355,13 +1355,13 @@
           <GroupName>APP</GroupName>
         </Group>
         <Group>
-          <GroupName>Tests</GroupName>
+          <GroupName>Supporting/Tests</GroupName>
         </Group>
         <Group>
-          <GroupName>Tools</GroupName>
+          <GroupName>Supporting/Tools</GroupName>
         </Group>
         <Group>
-          <GroupName>Docs</GroupName>
+          <GroupName>Supporting/Docs</GroupName>
         </Group>
         <Group>
           <GroupName>::CMSIS</GroupName>
