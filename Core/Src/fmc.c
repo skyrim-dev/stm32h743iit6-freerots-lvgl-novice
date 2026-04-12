@@ -20,10 +20,9 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "fmc.h"
-#include "bsp_fmc_sdram_init.h"
 
 /* USER CODE BEGIN 0 */
-
+#include "bsp_fmc_sdram_init.h"
 /* USER CODE END 0 */
 
 SDRAM_HandleTypeDef hsdram1;
